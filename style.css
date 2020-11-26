@@ -69,6 +69,50 @@ hr {
     border-right: hidden;
     border-bottom: 1px solid black;
     box-shadow: 0 7px 16px 1px #000000;
+}
 
+#bouton {
+    width: 30%;
+    margin-top: 5rem;
+}
+#send {
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
+@media screen and (max-width: 600px) {
+    img {
+        height: 8rem;
+        width: 40%;
+    }
+    form div {
+        font-size: 3.5rem;
+    }
+    #send {
+        font-size: 2rem;
+    }
+    #bouton {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #conteneur {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    form div {
+        width: 100%;
+    }
+    #bouton {
+        width: 100%;
+    }
+    #send {
+        display: block;
+        font-size: 5px;
+    }
 }
